@@ -1,0 +1,211 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║       MACHINE LEARNING COURSEWORK 2: IMAGE CLASSIFICATION            ║
+║                                                                      ║
+║                    🎓 Getting Started Guide 🎓                       ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+Welcome! This project contains a complete implementation of an image 
+classification system using Convolutional Neural Networks (CNN).
+
+═══════════════════════════════════════════════════════════════════════
+
+📋 WHAT'S INCLUDED:
+
+✓ Complete neural network implementation (main.py)
+✓ Custom image prediction tool (predict.py)
+✓ Model visualization scripts (visualize_model.py)
+✓ Quick testing option (quick_start.py)
+✓ Comprehensive documentation (README.md + 5 other guides)
+✓ Automated setup script (setup.sh)
+✓ All coursework requirements met + bonus features
+
+═══════════════════════════════════════════════════════════════════════
+
+🚀 QUICK START (3 STEPS):
+
+Step 1: Install Dependencies
+────────────────────────────
+   Option A (Automated):
+      ./setup.sh
+   
+   Option B (Manual):
+      python3 -m venv venv
+      source venv/bin/activate
+      pip install -r requirements.txt
+
+Step 2: Run Training
+────────────────────
+   For quick test (5 epochs, ~5 minutes):
+      python3 quick_start.py
+   
+   For full training (30 epochs, ~30 minutes):
+      python3 main.py
+
+Step 3: View Results
+────────────────────
+   Check the results/ folder for:
+   • Trained model (best_model.pth)
+   • Training graphs (training_history.png)
+   • Confusion matrix (confusion_matrix.png)
+   • Performance metrics (classification_report.txt)
+
+═══════════════════════════════════════════════════════════════════════
+
+📚 DOCUMENTATION FILES:
+
+Essential Reading:
+   📖 PROJECT_OVERVIEW.md    - Complete project summary (START HERE!)
+   📖 README.md              - Main documentation with architecture details
+   📖 INSTALL.md             - Detailed installation instructions
+
+Before Submission:
+   ✅ CHECKLIST.md           - Submission checklist
+   
+For Learning:
+   🔬 EXPERIMENTS.md         - How to improve the model
+
+═══════════════════════════════════════════════════════════════════════
+
+💻 KEY COMMANDS:
+
+Training:
+   python3 main.py                    # Full training (30 epochs)
+   python3 quick_start.py             # Quick test (5 epochs)
+
+Visualization:
+   python3 visualize_model.py         # Model architecture diagrams
+
+Prediction:
+   python3 predict.py image.jpg       # Test on your own image
+   python3 predict.py                 # Interactive mode
+
+═══════════════════════════════════════════════════════════════════════
+
+🎯 COURSEWORK REQUIREMENTS:
+
+Required (All Included):
+   ✅ Public image dataset (CIFAR-10)
+   ✅ Data import and preprocessing
+   ✅ Neural network with multiple layers
+   ✅ Training and evaluation
+   ✅ Performance metrics
+   ✅ Documentation and explanations
+
+Optional Bonus Features (All Included):
+   ✅ Quick rerun capability
+   ✅ Custom image testing
+   ✅ Additional visualizations
+   ✅ Interactive prediction mode
+   ✅ Comprehensive documentation
+
+═══════════════════════════════════════════════════════════════════════
+
+📊 EXPECTED RESULTS:
+
+   Training Accuracy:  85-90%
+   Testing Accuracy:   75-80%
+   Training Time:      20-40 minutes (depending on hardware)
+   
+   Dataset:            CIFAR-10 (60,000 images, 10 classes)
+   Model Size:         ~6 MB (~1.5M parameters)
+
+═══════════════════════════════════════════════════════════════════════
+
+🔧 TROUBLESHOOTING:
+
+Problem: "Module not found"
+Solution: pip install -r requirements.txt
+
+Problem: "Training is slow"
+Solution: Use quick_start.py for testing or enable GPU
+
+Problem: "Model file not found"
+Solution: Run python3 main.py first to train the model
+
+Problem: "Out of memory"
+Solution: Reduce batch_size in main.py (line 35)
+
+═══════════════════════════════════════════════════════════════════════
+
+🎓 PROJECT STRUCTURE:
+
+   main.py                 - Main training script ⭐
+   predict.py              - Image prediction
+   visualize_model.py      - Architecture visualization
+   quick_start.py          - Quick testing
+   requirements.txt        - Dependencies
+   setup.sh                - Automated setup
+   README.md               - Documentation
+   results/                - Output folder
+
+═══════════════════════════════════════════════════════════════════════
+
+✨ FEATURES HIGHLIGHT:
+
+Deep Learning:
+   • Convolutional Neural Network (CNN)
+   • Batch Normalization
+   • Dropout Regularization
+   • Learning Rate Scheduling
+   • Adam Optimizer
+
+Visualizations:
+   • Training curves (loss & accuracy)
+   • Confusion matrix
+   • Sample predictions
+   • Model architecture diagram
+   • Feature learning process
+   • Training flowchart
+
+User Features:
+   • Test on custom images
+   • Interactive prediction mode
+   • Comprehensive reports
+   • Progress tracking
+
+═══════════════════════════════════════════════════════════════════════
+
+📝 BEFORE SUBMITTING:
+
+   [ ] Run all scripts successfully
+   [ ] Review generated results
+   [ ] Check all documentation
+   [ ] Verify code is well-commented
+   [ ] Review CHECKLIST.md
+   [ ] Create ZIP for submission
+   [ ] Submit by deadline: 22 Nov 2024, 23:59 GMT
+
+═══════════════════════════════════════════════════════════════════════
+
+🌟 NEXT STEPS:
+
+1. Read PROJECT_OVERVIEW.md for complete project understanding
+2. Run quick_start.py to verify everything works
+3. Read README.md for architecture details
+4. Run main.py for full training
+5. Test predict.py with your own images
+6. Review CHECKLIST.md before submission
+
+═══════════════════════════════════════════════════════════════════════
+
+💡 TIPS:
+
+• Start with quick_start.py to ensure everything works
+• Read the documentation - it's comprehensive and helpful
+• Understand the code - you may need to explain it
+• Check the results folder after training
+• Test the prediction script with different images
+• Review the visualizations to understand model behavior
+
+═══════════════════════════════════════════════════════════════════════
+
+Good luck with your coursework! 🚀
+
+For detailed information, read:
+   👉 PROJECT_OVERVIEW.md (comprehensive summary)
+   👉 README.md (technical details)
+   👉 INSTALL.md (setup instructions)
+
+═══════════════════════════════════════════════════════════════════════
