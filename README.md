@@ -426,29 +426,3 @@ For questions or issues:
 
 This project is created for educational purposes as part of Machine Learning Coursework 2.
 
----
-
-## 👤 Author
-
-**[Your Name]**  
-Machine Learning Coursework 2  
-November 2024  
-University of Roehampton
-
----
-
-## 🎯 Learning Outcomes
-
-By completing this project, you will understand:
-
-1. **Convolutional Neural Networks**: How CNNs work for image classification
-2. **Deep Learning Pipeline**: Data loading, preprocessing, training, evaluation
-3. **PyTorch Framework**: Building and training models in PyTorch
-4. **Model Evaluation**: Various metrics for assessing model performance
-5. **Hyperparameter Tuning**: Impact of learning rate, batch size, epochs
-6. **Regularization Techniques**: Dropout and batch normalization
-7. **Transfer of Knowledge**: Applying ML concepts to real-world problems
-
----
-
-**Good luck with your coursework! 🚀**
